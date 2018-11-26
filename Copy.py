@@ -1,8 +1,8 @@
 import arcpy, os
 from arcpy import env
 
-env.workspace = "C:\Users\mlemmon\AppData\Roaming\ESRI\Desktop10.3\ArcCatalog\ESRIPROD gisdbsrv.sde"
-outputFGD = "C:\Users\mlemmon\Documents\ArcGIS\ESRIPRODD_Copy.gdb"
+env.workspace = ""
+outputFGD = ""
 
 features = arcpy.ListFeatureClasses()
 for feature in features:
